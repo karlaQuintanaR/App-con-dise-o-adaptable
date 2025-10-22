@@ -126,7 +126,6 @@ fun ReplyListAndDetailContent(
         )
     }
 }
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReplyEmailListItem(
@@ -136,9 +135,9 @@ fun ReplyEmailListItem(
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier,
-        colors = CardDefaults.cardColors(
-            containerColor = if (selected) {
+        modifier= modifier,
+        colors =CardDefaults.cardColors(
+            containerColor =if (selected) {
                 MaterialTheme.colorScheme.primaryContainer
             } else {
                 MaterialTheme.colorScheme.secondaryContainer
@@ -156,7 +155,7 @@ fun ReplyEmailListItem(
                 Modifier.fillMaxWidth()
             )
             Text(
-                text = stringResource(email.subject),
+                text =stringResource(email.subject),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurface,
                 modifier = Modifier.padding(
@@ -180,7 +179,7 @@ private fun ReplyEmailItemHeader(email: Email, modifier: Modifier = Modifier) {
     Row(modifier = modifier) {
         ReplyProfileImage(
             drawableResource = email.sender.avatar,
-            description = stringResource(email.sender.firstName) + " "
+            description =stringResource(email.sender.firstName) + " "
                     + stringResource(email.sender.lastName),
             modifier = Modifier.size(dimensionResource(R.dimen.email_header_profile_size))
         )
@@ -191,7 +190,7 @@ private fun ReplyEmailItemHeader(email: Email, modifier: Modifier = Modifier) {
                     horizontal = dimensionResource(R.dimen.email_header_content_padding_horizontal),
                     vertical = dimensionResource(R.dimen.email_header_content_padding_vertical)
                 ),
-            verticalArrangement = Arrangement.Center
+            verticalArrangement =Arrangement.Center
         ) {
             Text(
                 text = stringResource(email.sender.firstName),
@@ -200,7 +199,7 @@ private fun ReplyEmailItemHeader(email: Email, modifier: Modifier = Modifier) {
             Text(
                 text = stringResource(email.createdAt),
                 style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.outline
+                color =MaterialTheme.colorScheme.outline
             )
         }
     }
@@ -220,7 +219,6 @@ fun ReplyProfileImage(
         )
     }
 }
-
 @Composable
 fun ReplyLogo(
     modifier: Modifier = Modifier,
