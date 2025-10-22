@@ -18,9 +18,6 @@ package com.example.reply.data
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
-/**
- * A class which represents an account
- */
 data class Account(
     /** Unique ID of a user **/
     val id: Long,

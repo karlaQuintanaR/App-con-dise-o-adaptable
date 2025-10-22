@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 package com.example.reply.ui
-
 import com.example.reply.data.Email
 import com.example.reply.data.MailboxType
 import com.example.reply.data.local.LocalEmailsDataProvider

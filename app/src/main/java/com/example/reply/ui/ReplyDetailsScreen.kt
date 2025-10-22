@@ -280,7 +280,6 @@ private fun DetailsScreenHeader(email: Email, modifier: Modifier = Modifier) {
         }
     }
 }
-
 @Composable
 private fun ActionButton(
     text: String,

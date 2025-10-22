@@ -35,7 +35,6 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
 fun <A : ComponentActivity> AndroidComposeTestRule<ActivityScenarioRule<A>, A>.onNodeWithStringId(
     @StringRes id: Int
 ): SemanticsNodeInteraction = onNodeWithText(activity.getString(id))
-
 /**
  * Finds a semantics node from the content description with the given string resource id.
  *

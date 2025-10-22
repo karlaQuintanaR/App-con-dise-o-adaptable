@@ -231,7 +231,6 @@ fun ReplyLogo(
         modifier = modifier
     )
 }
-
 @Composable
 private fun ReplyHomeTopBar(modifier: Modifier = Modifier) {
     Row(

@@ -22,13 +22,6 @@ enum class ReplyNavigationType {
     BOTTOM_NAVIGATION, NAVIGATION_RAIL, PERMANENT_NAVIGATION_DRAWER
 }
 
-/**
- * Content shown depending on size and state of device.
- */
-
-/**
- * Clase para diferentes tipos de contenido
- */
 
 enum class ReplyContentType {
     LIST_ONLY, LIST_AND_DETAIL
