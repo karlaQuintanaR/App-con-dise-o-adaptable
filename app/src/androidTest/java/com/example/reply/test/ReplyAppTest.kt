@@ -41,7 +41,6 @@ class ReplyAppTest {
             R.string.navigation_bottom
         ).assertExists()
     }
-
     @Test
     @TestMediumWidth
     fun mediumDevice_verifyUsingNavigationRail() {
@@ -55,7 +54,6 @@ class ReplyAppTest {
             R.string.navigation_rail
         ).assertExists()
     }
-
     @Test
     @TestExpandedWidth
     fun expandedDevice_verifyUsingNavigationDrawer() {
