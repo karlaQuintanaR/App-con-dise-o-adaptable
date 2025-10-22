@@ -124,11 +124,9 @@
         later today if you have a second.
     </string>
     <string name="email_4_time">2 hours ago</string>
-
     <string name="email_5_subject">Update to Your Itinerary</string>
     <string name="email_5_body" />
     <string name="email_5_time">2 hours ago</string>
-
     <string name="email_6_subject">Recipe to try</string>
     <string name="email_6_body">
         Raspberry Pie: We should make this pie recipe tonight! The filling is very quick to put
@@ -141,7 +139,6 @@
         Your shoes should be waiting for you at home!
     </string>
     <string name="email_7_time">2 hours ago</string>
-
     <string name="email_8_subject">Your update on Google Play Store is live!</string>
     <string name="email_8_body">
         Your update, 0.1.1, is now live on the Play Store and available for your alpha users to
@@ -171,5 +168,4 @@
         link.
     </string>
     <string name="email_11_time">3 hours ago</string>
-
 </resources>
