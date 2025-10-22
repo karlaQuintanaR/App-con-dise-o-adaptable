@@ -33,11 +33,6 @@ import org.junit.Rule
 import org.junit.Test
 
 class ReplyAppStateRestorationTest {
-
-    /**
-     * Note: To access to an empty activity, the code uses ComponentActivity instead of
-     * MainActivity.
-     */
     @get:Rule
     val composeTestRule = createAndroidComposeRule<ComponentActivity>()
 
