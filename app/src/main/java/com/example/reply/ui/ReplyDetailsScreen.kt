@@ -105,7 +105,7 @@ fun ReplyDetailsScreen(
 
 @Composable
 private fun ReplyDetailsScreenTopBar(
-    onBackButtonClicked: () -> Unit,
+    onBackButtonClicked: ()  -> Unit,
     replyUiState: ReplyUiState,
     modifier: Modifier = Modifier
 ) {
@@ -114,7 +114,7 @@ private fun ReplyDetailsScreenTopBar(
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconButton(
-            onClick = onBackButtonClicked,
+            onClick =onBackButtonClicked,
             modifier = Modifier
                 .padding(horizontal = dimensionResource(R.dimen.detail_topbar_back_button_padding_horizontal))
                 .background(MaterialTheme.colorScheme.surface, shape = CircleShape),
@@ -131,7 +131,7 @@ private fun ReplyDetailsScreenTopBar(
                 .padding(end = dimensionResource(R.dimen.detail_subject_padding_end))
         ) {
             Text(
-                text = stringResource(replyUiState.currentSelectedEmail.subject),
+                text =stringResource(replyUiState.currentSelectedEmail.subject),
                 style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -185,7 +185,6 @@ private fun ReplyEmailDetailsCard(
         }
     }
 }
-
 @Composable
 private fun DetailsScreenButtonBar(
     mailboxType: MailboxType,
@@ -249,7 +248,6 @@ private fun DetailsScreenButtonBar(
         }
     }
 }
-
 @Composable
 private fun DetailsScreenHeader(email: Email, modifier: Modifier = Modifier) {
     Row(modifier = modifier) {
