@@ -78,7 +78,7 @@ fun ReplyAppCompactPreview() {
     }
 }
 
-@Preview(showBackground = true, widthDp = 700)
+@Preview(showBackground =true, widthDp = 700)
 @Composable
 fun ReplyAppMediumPreview() {
     ReplyTheme {
@@ -90,7 +90,7 @@ fun ReplyAppMediumPreview() {
     }
 }
 
-@Preview(showBackground = true, widthDp = 1000)
+@Preview(showBackground =true, widthDp = 1000)
 @Composable
 fun ReplyAppExpandedPreview() {
     ReplyTheme {
