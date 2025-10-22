@@ -25,6 +25,11 @@ enum class ReplyNavigationType {
 /**
  * Content shown depending on size and state of device.
  */
+
+/**
+ * Clase para diferentes tipos de contenido
+ */
+
 enum class ReplyContentType {
     LIST_ONLY, LIST_AND_DETAIL
 }
